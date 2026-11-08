@@ -15,6 +15,11 @@ Junior SOC Analyst bo'lish uchun portfolio. Linux, Windows, Networking, Security
 
 - [OverTheWire: Bandit (Level 0→15)](05-ctf/bandit-writeup.md): har bir daraja uchun metodologiya + Level 13'da uchragan real muammoning yechimi
 
+## Keyingi yo'nalishlar (IIV tavsiyasi asosida)
+
+- [Tarmoq kriminalistikasi (Network Forensics)](06-forensics/network-forensics-plan.md): Wireshark orqali HTTP/DNS trafigini tahlil qilish — reja va amaliyot manbalari
+- [OSINT](07-osint/osint-plan.md): fishing saytlar, IP va domenlarni qonuniy, ochiq vositalar orqali tekshirish — reja va amaliyot manbalari
+
 ## Hisobotlar
 
 Lab va challenge hisobotlari tez orada qo'shiladi.
