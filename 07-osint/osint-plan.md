@@ -18,7 +18,12 @@ Davlat xizmatida ishlashda bu chegara ayniqsa qat'iy kuzatiladi — har bir hara
 ## Amaliyot manbalari
 
 - [TryHackMe — OhSINT](https://tryhackme.com/room/ohsint) — klassik boshlang'ich OSINT xonasi: bitta rasmdan boshlab, foydalanuvchi haqida ochiq ma'lumot yig'ish zanjiri
+- [TryHackMe — Shodan.io](https://tryhackme.com/room/shodan) — internetga ulangan qurilmalarni qonuniy qidirish vositasi, rasmiy xona
 - [TryHackMe — OSINT mavzusi (barcha tegishli xonalar)](https://tryhackme.com/topics/osint)
+
+### Qo'shimcha — [uttambodara/TryHackMeRoadmap](https://github.com/uttambodara/TryHackMeRoadmap) ro'yxatidan saralangan
+
+OhSINT va Shodan.io'dan keyin davom ettirish uchun quyidagi nomlar ham ro'yxatda bor (aniq havolasi tasdiqlanmagani uchun TryHackMe qidiruvi orqali topish tavsiya etiladi): **Google Dorking**, **WebOSINT**, **Searchlight - IMINT**, **Geolocating Images** (rasm metama'lumoti orqali joylashuvni aniqlash — tergov ishida ayniqsa foydali ko'nikma).
 
 ## Asosiy vositalar (qonuniy, ochiq)
 

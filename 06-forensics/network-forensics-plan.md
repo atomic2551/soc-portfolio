@@ -13,6 +13,18 @@ SOC/tergov ishida ko'p hollarda "nima bo'ldi" degan savolga javob — tarmoq tra
 - [TryHackMe — Wireshark: Traffic Analysis](https://tryhackme.com/room/wiresharktrafficanalysis) — real hujum trafigini tahlil qilish
 - [Malware-Traffic-Analysis.net](https://www.malware-traffic-analysis.net/) — haqiqiy zararli dastur trafigi namunalari (`.pcap`), mustaqil mashq uchun
 
+### Qo'shimcha — [uttambodara/TryHackMeRoadmap](https://github.com/uttambodara/TryHackMeRoadmap) ro'yxatidan saralangan
+
+Wireshark asoslarini tugatgach, quyidagi ketma-ketlik tavsiya etiladi (digital forensics va blue team tomoniga o'tish uchun):
+
+- [TShark Challenges I](https://tryhackme.com/room/tsharkchallengesone) va [TShark Challenges II](https://tryhackme.com/room/tsharkchallengestwo) — buyruq qatoridan (terminal) paket tahlili, Wireshark GUI'siz
+- [Overpass 2 — Hacked](https://tryhackme.com/room/overpass2hacked) — `.pcap` fayl orqali haqiqiy hujumni qayta tiklash (PCAP + veb forensika aralash)
+- [Volatility Essentials](https://tryhackme.com/room/volatilityessentials) — operativ xotira (RAM) tahlili, Memory Forensics asoslari
+- [Investigating Windows](https://tryhackme.com/room/investigatingwindows) — Windows jurnallari (Event Logs) orqali hodisani tergov qilish, SOC/Blue Team uchun klassik xona
+- [TryHackMe — Investigations moduli](https://tryhackme.com/module/investigations) va [Incident Response and Forensics moduli](https://tryhackme.com/module/incident-response-and-forensics) — yuqoridagi xonalarni o'z ichiga olgan tartiblangan yo'l
+
+> Quyidagi nomlar ham ro'yxatda bor, lekin aniq havolasi tasdiqlanmagani uchun TryHackMe qidiruvi orqali topish tavsiya etiladi: **Carnage**, **h4cked**, **Disk Analysis & Autopsy**, **Memory Forensics**, **Linux Server Forensics**, **Investigating with Splunk**.
+
 ## Boshlang'ich filtrlar (eslatma sifatida)
 
 ```
