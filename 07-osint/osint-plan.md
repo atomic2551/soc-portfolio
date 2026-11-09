@@ -47,5 +47,31 @@ filetype:xls "parol"
 - [ ] OhSINT xonasini yechish — bajarilmagan
 - [ ] Shodan'da oddiy qidiruv sinab ko'rish (masalan ochiq kameralar/routerlar — faqat ko'rish, ulanmasdan)
 - [ ] Bitta real fishing domenni WHOIS + VirusTotal orqali tekshirish (masalan oldin uchragan shubhali havola)
+- [x] Mustaqil mashq: ochiq, umumiy ko'rinadigan professional profilni cross-platform usulda xaritalash (quyida)
 
 > Har bir mashq tugatilgach, shu faylga qanday metod ishlatilgani va nima topilgani qisqa yozib boriladi.
+
+---
+
+## Mustaqil mashq #1 — Cross-platform username correlation (2026-11-09)
+
+**Maqsad obyekt:** ochiq, hammaga ko'rinadigan professional YouTube kanali (o'z xohishi bilan reklama/brend uchun ochiq qoldirilgan "About" sahifa — shaxsiy, yopiq profil emas).
+
+**Metod:** kanalning "Haqida" (About) bo'limida ko'rsatilgan havolalar zanjirini yig'ish va ularning izchilligini tahlil qilish.
+
+**Topilgan ma'lumotlar (kanal o'zi ochiq ko'rsatgan):**
+
+| Platforma | Username/havola |
+|---|---|
+| YouTube | `@Nursaidovuz` |
+| Veb-sayt | `nursaidov.uz` |
+| Telegram | `t.me/nursaidovuz` |
+| Facebook | `facebook.com/Nursaidovuz` |
+| Instagram | `instagram.com/nursaidovuz` |
+| Joylashuv (platforma ko'rsatgan) | Germaniya |
+
+**Tahlil (3-4 jumlada xulosa):**
+
+Barcha platformalarda **bir xil username (`nursaidovuz`)** ishlatilgani — kuchli kross-platforma identifikatsiya belgisi: bitta akkauntni topish orqali butun "raqamli iz" (digital footprint) zanjirini qayta tiklash mumkin. Bu — OSINT'da eng tez-tez ishlatiladigan dastlabki texnikalardan biri, chunki content maker'lar brend izchilligi uchun username'ni har joyda bir xil saqlaydi. Platforma ko'rsatgan joylashuv (Germaniya) va kontent tili (o'zbekcha) o'rtasidagi farq — bu xato yoki shubha emas, balki diaspora kontent-meykerlari uchun odatiy holat, lekin tergov metodologiyasida har doim alohida qayd etiladi. Qo'shimcha chuqurlashtirish (masalan domen WHOIS tarixi) orqali profilni yanada aniqlashtirish mumkin, lekin bu mashqda faqat ochiq ko'rinadigan "About" ma'lumoti bilan cheklanildi.
+
+**Cheklov/eslatma:** bu — shaxsiy, yopiq profil emas, balki o'z ixtiyori bilan ochiq qoldirilgan biznes/brend sahifasi (266 video, 6+ ming obunachi, reklama uchun ochiq kontakt havolalari). OSINT mashqi faqat shunday **ochiq, rozilik bilan e'lon qilingan** ma'lumot bilan cheklanishi kerak — xususiy shaxslarning yopiq profillarini bunday tahlil qilish OSINT emas, balki maxfiylik buzilishi hisoblanadi.
